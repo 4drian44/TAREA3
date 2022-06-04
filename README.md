@@ -1,8 +1,50 @@
 # TAREA3
 OBJETIVOS
 
+Aprender acerca de los circuitos en serie, utilidad y aplicaciones de conocimientos precios en este tipo de circuitos
+
+Conocer los circuitos en paralelo, para aplicar lo conocido de capitulos anteriores y nuevos conceptos en este tipo de circuitos
 
 MARCO TEÓRICO (RESUMEN)
+
+Nos referimos cuando cada trayectoria para la corriente(rama) y un circuito en paralelo es uno con más de una rama.
+
+Si existe más de una trayectoria para la corriente entre dos puntos, y si el voltaje, aparece a través de cada rama, existe un circuito en paralelo.
+
+Voltaje en un circuito en paralelo es el voltaje a través de cada una de las ramas en paralelo..
+
+Leyes de corrientes de Kirchoff, son la suma de corrientes que entran a un nodo, es igual a la suma de corrientes que salen del nodo. Corriente total de entrada es igual a corriente total de salida. Nodo es cualquier unión donde dos o mas componentes están conectados.
+
+Ientrada1+Ientrada2+...Ientradax=Isalida1+Isalida2+...Isalidax
+La suma algebraica de todas las corrientes que entran a y salen de un nodo es 0.
+
+Resistencia total en paralelo, es cuando conectan resistores en paralelo, la resistencia total del circuito se reduce. La resistencia total de un circuito dispuesto en paralelo es menor que el valor de resistor más pequeño. 
+Fórmula: I_t=I_1+I_2+I_3+..+I_n
+Se puede sustituir con la ley de ohm la fórmula
+Simplificado tenemos 
+1/R_t=1/R1+1/R2+1/R3+...+1/Rn
+También expresada como 
+R_t=1/(1/R1+1/R2+1/R3+...+1/Rn)
+
+Aplicación de la ley de Ohm, es sencillo aplicarla en circuitos en paralelo.
+
+Fuentes de corriente en paralelo
+
+La corriente total producida por fuentes de corriente es la suma de fuentes de corriente individuales, se debe considerar la dirección de la corriente cuando se combinan fuentes en paralelo.
+
+Divisores de corriente, se refiere a los circuitos en paralelo que actuan como tales. L acorriente total dirigida hacia la union de ramas se divide entre ramas. Entre resistores en paralelo la corriente total se divide en corrientes con valores inversamente proporcionales a valores de resistencia. 
+
+Fórmula: Is=Vs/Rs
+Vs=It* Rt
+Se puede reemplazar y puede reordenar para obtener
+Para obtener cierto numero de corriente
+Ix=(Rt/Rs)It
+
+Fórmula de divisor de corriente con dos ramas: Rt=R1R2/(R1+R2)
+
+Potencia en circuitos en paralelo. Se encuentra sumando las potencias de todos los resistores como en circuitos en serie.
+
+Se puede localizar fallas en los circuitos en paralelo, conociendo cuando se interrumpe un circuito y no hay corriente. Cuando una rama en paralelo se abre, la resistencia total incrementa, corriente disminuye y la corriente continúa fluyendo por cada una de las trayectorias restantes.
 
 
 EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS
@@ -239,6 +281,8 @@ I5=I1+I2+I3+I4-IT
 I5= 500 - 50 - 150 - 25 - 100 = 175mA
 
 12)En cierta habitación, el circuito eléctrico tiene una lámpara de cielo que consume 1.25 A y cuatro tomas de corriente de pared. Dos lámparas de mesa que consumen cada una 0.833 A están conectadas a dos tomas de corriente, y un calentador eléctrico que consume 10 A está conectado a la tercer toma de corriente. Cuando todos estos elementos están en uso. ¿cuánta corriente hay en la línea principal que abastece a la habitación? Si la linea principal está protegida por un cortacircuito de 15 A. ¿cuánta corriente puede ser absorbida de la cuarta toma de corriente? Trace un diagrama esquemático de esta instalación eléctrica
+![a](https://user-images.githubusercontent.com/105291231/171972333-a921b73d-9e1d-43a3-9ec3-d7913e418d04.png)
+
 
 14) Los siguientes resistores están conectados en paralelo: 1.0 MQ. 2.2 MO, 5.6 MO. 12 MO. y 22 MO. Determine la resistencia total
 
@@ -253,54 +297,187 @@ RT=1/(1/R1)+(1/R2)+(1/R3)+...+(1/Rx)
 
 a)RT =157.94 Ohmios
 
-B)RT=18.21k Omega
+B)RT=18.21k Ohmios
 
 C)RT = 0.89kOhmios
-18) Tres grupos uno de cinco resistores de 47022 otro de diez resistores de 1001 y uno más de dos resistores de 1000 están conectados en paralelo. ¿Cuál es la resistencia total para cada uno de los tres agrupamientos
+18) Tres grupos uno de cinco resistores de 47022 otro de diez resistores de 100ohms y uno más de dos resistores de 100ohms están conectados en paralelo. ¿Cuál es la resistencia total para cada uno de los tres agrupamientos?
 
-Para el primer grupo sene Re-Run, donde n es el numero de resistores. Entonces Re-470/5=9402
+Primer grupo RT=R/n. RT=470/5=94ohms
+Segundo grupo seria RT=R/n R/n. RT=100/10=10R/n
+Tercer grupo seria RT=R/n R/n. RT=100/2=50ohms
+n es el numero de resistores
+20) Si la resistencia total en la figura 6-71 es de 389.2 . ¿cuál es el valor de R27
 
-Para el segundo grupo seria R-R/m donde es el numero de resistores. Entonces Ri=100/10=100
+1/389.2=1/680+1/R2 
+1/R2= 1/389.2-1/680
 
-Para el tercer grupo seria R-R/n donde n es el numero de resistores. Entonces 100/2=5012
+R2=910.09ohmios
 
-2015 la resistencia total en la figura 6-71 es de 389.2 . ¿cuál es el valor de R27
+22)¿Cual es la carrionto total on cada uno de los circuitos de la figura 6-737
 
-1/3892 1/800+1/R
+A) RT=10.24ohms
+I=10V/10.24ohms=0.9765mA
 
-1/R 1/3692-1/680
+A)RT=333.5ohms
+I=25V/333.5ohms= 0.07mA
 
-Despenjando Rs y calculando tengo que: R-910.000
-
-221¿Cual es la carrionto total on cada uno de los circuitos de la figura 6-737
-
-Fácilmente puedo calcular Ry y aplicando ley de chm tendría la corrente total ya que uso el valor de resistencia total y el voltaje es el mismo
-
-para todo el circuito
-
-A) R-102402, ya con este dato aplicando ley de ohm 1-V/R110/24009765mA
-
-A58-333-502, ya con este dato aplicando ley de ohm V/R -> 123V/333.50 0.07mA
-
-24)Cuatro resistores de igual valor están conectados en paralelo. Se aplican cinco volts al circuito en paralelo y se lee 1.11 mA en la fuente.
-
-¿Cuál es el valor de cada resistor?
-
-Aplicando ley de ohm:
+24)Cuatro resistores de igual valor están conectados en paralelo. Se aplican cinco volts al circuito en paralelo y se lee 1.11 mA en la fuente. ¿Cuál es el valor de cada resistor?
 
 R=V/IR 5V/1.11mA= 4.50k
 
-4.50k/4=12500
+4.50kohms/4=1250ohms
+Los resistores son de 1250ohms
 
-Cada uno de los resistores es de 1250
+26. Encuentre los valores de las cantidades marcadas no especificadas en cada circuito de la figura 6-74.
+
+a. Is=I1+I2
+150mA=100mA+I2
+I2=150mA-100mA
+I2=50mA
+R2=Vs/I2=10V/50mA=200Ω
+R1=Vs/I1=10V/100mA=100Ω
+b. Is=I1+I2+I3
+Vs/Rt=Vs/R1+Vs/R2+Vs/R3
+(100 V)/Rt=100V/R1+100V/680Ω+100V/1kΩ
+(100 V)/Rt=100V/R1+0.14A+0.1A
+(100 V)/Rt=100V/R1+0.24A
+(100 V)/Rt=(100V+0.24A* R1)/R1
+(100 V R1)/(100V+0.24A* R1)=Rt
+Rt=1/(1/R1+1/R2+1/R3)=1/(1/R1+1.47mΩ+1mΩ)
+Rt=1/(1/R1+2.47mΩ)=1/((1+2.47mΩR1)/R1)=R1/(1+2.47mΩR1)
+(100 V R1)/(100V+0.24A* R1)=R1/(1+2.47mΩR1)
+(100 V R1(1+2.47mΩR1))/1=(R1(100V+0.24A* R1))/1
+100R1+2.47mΩ(R1)^2=100R1+0.24ΩR1+R1^2
+2.47(R1)^2=0.24R1+〖R1〗^2
+1.48(R1)^2=0.24R1
+1.48(R1)^2-0.24R1=0
+1.48R1-0.24=0
+R1=0.24/1.48=162.16Ω
+Rt=(100 V R1)/(100V+0.24A*R1)=(100 V*162.16)/(100V+0.24A* 162.16)=116.73Ω
+
+28. Determine la corriente total suministrada por la fuente y la corriente a través de cada resistor para cada una de las posiciones de interruptor mostradas en la figura 6-76.
+
+30. Determine la corriente a través de RL en cada uno de los circuitos de la figura 6-78.
+a.
+Is=I1+I2=3mA
+Rl=Vs/Is=Vs/3mA
+b.
+Is=I1+I2
+I2=Is-I1=50µA-40µA=10µA
+I2=Vs/I2=Vs/(10µA)
+c.
+Is=I1+I2+I3
+Is=1A-2.5A+2A=0.5A
+Is=Vs/Rl=Vs/0.5A
+
+32. ¿Cuánta corriente deberán indicar los medidores de la figura 6-80 a través de cada rama?
+
+
+Rt=(R1* R2)/(R1+R2)=((1* 2.7)kΩ)/((1+2.7 )kΩ)=0.73kΩ
+I1=Vs/R1=Vs/1kΩ=Vs=81/37 A
+I2=Vs/R2=Vs/2.7kΩ=(81/37)/2.7=30/37 A
+Is=I1+I2
+3A=Vs+Vs/2.7kΩ
+3=37/27 Vs
+Vs=(27* 3)/37=81/37 V
+
+
+34. ¿Cuál es la corriente a través de cada resistor mostrado en la figura 6-82? R es el resistor de valor más bajo, y todos los demás valores son múltiplos de éste como se indica.
+
+1/Rt=1/R1+1/R2+1/R3+1/R4
+1/Rt=1/R+1/2R+1/3R+1/4R
+25/(12 R)=1/Rt
+Rt=(12 R)/25
+Is=Vs/Rt
+10mA=Vs/((12 R)/25)
+Vs=12R/25 10=12R/5
+Vs/Rt=Vs/R1+Vs/R2+Vs/R3
+It=(12R/5)/R+(12R/5)/2R+(12R/5)/3R+(12R/5)/4R
+It=12/5+12/10+12/15+12/20
+I1=12/5
+I2=6/5
+I3=4/5
+I4=3/5
+
+
+36. (a) Determine el valor requerido del resistor en derivación RSH1 en el amperímetro de la figura 6-49 si la resistencia del movimiento de medidor es de 50.
+(b) Encuentre el valor requerido para RSH2 en el circuito medidor de la figura 6-50 (RM  50 Æ).
+
+I1=V/R1
+V=I1*R1=1mA*50Ω=0.05V
+I2=V/R2
+R2=V/I2=0.05V/9mA=5.55A
+
+
+38. Cada resistor de un grupo de cinco dispuesto en paralelo maneja 250 mW. ¿Cuál es la potencia total?
+
+Pt=P1+P2+P3+P4+P5
+Pt=250mW+250mW+250mW+250mW+250mW
+Pt=1250mW
+
+40. Seis focos están conectados en paralelo entre los extremos de una fuente de 110 V. Cada foco es de 75 W.
+¿Cuál es la corriente a través de cada foco, y cuál es la corriente total?
+
+Pt=V* 
+It
+It=P/V=450W/110V=4.09A
+Pt=It^2* Rt
+Rt=Pt/It^2 =450W/(4.09A)^2 =26.9Ω
+It=I1+I2+I3+I4+I5+I6
+It=681mA+681mA+681mA+681mA+681mA+681mA
+It=4086mA
+
+42. Cierto circuito en paralelo está compuesto por resistores de sólo 1⁄2 W. La resistencia total es de 1.0 kÆ, y la corriente total es de 50 mA. Si cada resistor opera a la mitad de su nivel de potencia máxima, determine lo siguiente:
+(a) El número de resistores (b) El valor de cada resistor
+(c) La corriente en cada rama (d) El voltaje aplicado
+
+44. En la figura 6-85, se indican las mediciones de corriente y voltaje. ¿Se ha abierto un resistor, y, de ser así, cuál?
+
+I1=1/24 A
+I2=1/56 A
+I3=1/100 A
+I4=1/10 A
+I5=1/22 A
+It=I1+I2+I3+I4+I5+I6=210.34mA
+Quitamos el valor de la corriente 1
+It=I2+I3+I4+I5+I6=173.3mA
+Por lo tanto la I1 si está conectada.
+Quitamos el valor de la corriente 2
+It=I1+I3+I4+I5+I6=192.5mA
+Por lo tanto la I2 si está conectada.
+Quitamos el valor de la corriente 3
+It=I1+I2+I4+I5+I6=200.4mA
+Por lo tanto la I3 es la que no está conectada.
+
+
+46. ¿Qué está mal con el circuito de la figura 6-86 si el medidor lee 5.55 mA?
+I1=125/41 A
+I2=5/2 A
+I3=250/47 A
+It=I1+I2+I3=7.82 A
+
+Quitamos el valor de la corriente 1
+It=I2+I3=7.81 mA
+Por lo tanto la I1 si está conectada.
+Quitamos el valor de la corriente 2
+It=I1+I3=8.36 mA
+Por lo tanto la I2 si está conectada.
+Quitamos el valor de la corriente 3
+It=I1+I2=5..55 mA
+Por lo tanto la I3 es la que no está conectada.
+
 VIDEO
 
-
+https://youtu.be/Wr_VJZzxmFw
 
 CONCLUSIONES
 
+Mediante la realización de la tarea se pudo comprender los circuitos en serie, sus aplciaciones y resolución de problemas.
+
+Se logró obtener los conocimientos acerca los temas del capítulo, en específico temas en circuitos en paralelo.
 
 BIBLIOGRAFÍA
+Floyd, Thomas (2007). Principios de circuitos electricos. Octava Edicion.
 
 
 
